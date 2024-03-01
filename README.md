@@ -1,7 +1,5 @@
 # Multi-label-ProteinLocalizer
-ML project on fluorescentrly stained microscopic images of cells and tissues.
-
-Based upon [this Kaggle competition](https://www.kaggle.com/competitions/jovian-pytorch-z2g/overview)
+ML project on fluorescentrly stained microscopic images of cells and tissues. `data` and `predictions` folders should be added to run this notebook. These data can be downloaded from the [orginal Kaggle competition site](https://www.kaggle.com/competitions/jovian-pytorch-z2g/overview)
 
 Some interesting notes and strategies
 - Pre-trained ImageNet models are the best...
