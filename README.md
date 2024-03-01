@@ -5,5 +5,6 @@ Based upon [this Kaggle competition](https://www.kaggle.com/competitions/jovian-
 
 Some interesting notes and strategies
 - Pre-trained ImageNet models are the best...
-- Class-imbalances can be addressed through a cost re-weighting strategy during training
+- Applying [progressive learning](https://arxiv.org/abs/2104.00298) dramatically improves training time
+- Class-imbalances can be addressed through a cost re-weighting strategy **during** training
 - Esembling has marginal effect on overall performance but dramatically improves model confidence (assessed through uncertainty estimation)
